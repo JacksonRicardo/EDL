@@ -7,8 +7,7 @@ public class Main {
     Object o;
     Vetor vetor = new Vetor();
     while (op != 0) {
-      System.out
-          .print("Comandos:\n[1] elemAtRank\n[2]replaceAtRank\n[3] insertAtRank\n[4] removeAtRank\n[0] Sair\n-> ");
+      System.out.print("Comandos:\n[1] elemAtRank\n[2]replaceAtRank\n[3] insertAtRank\n[4] removeAtRank\n[0] Sair\n-> ");
 
       op = sc.nextInt();
       switch (op) {
