@@ -3,4 +3,3 @@ public class EVetorExcecao extends Exception {
     super(msg);
   }
 }
-
